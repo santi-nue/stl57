@@ -130,7 +130,7 @@ class _ScanResultTileState extends State<ScanResultTile> {
         _buildAdvRow(context, 'Manufacturer Data', getNiceManufacturerData(adv.manufacturerData)),
         //_buildAdvRow(context, 'Service UUIDs', getNiceServiceUuids(adv.serviceUuids)),
         //_buildAdvRow(context, 'Service UUIDs', getNiceServiceUuids(adv.serviceUuids.map((key, value) => MapEntry(key.toString(), value)))),
-        _buildAdvRow(context, 'Service Data', getNiceServiceData(adv.serviceData)),
+        //_buildAdvRow(context, 'Service Data', getNiceServiceData(adv.serviceData)),
       ],
     );
   }
