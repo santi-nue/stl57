@@ -18,7 +18,9 @@ jobs:
         java-version: '11'
     - uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.2.6'
+        channel: stable
+        flutter-version-file: pubspec.yaml # path to pubspec.yaml
+  
 
     - run: flutter create .
     
