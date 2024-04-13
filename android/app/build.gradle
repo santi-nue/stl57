@@ -1,1 +1,4 @@
-r
+android{
+  defaultConfig {                                                                             
+    minSdkVersion 21                                                                          
+   }                                                                                           }     
